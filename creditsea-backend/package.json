@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "dotenv -- tsc-watch --onsuccess \"node dist/index.js\"",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
