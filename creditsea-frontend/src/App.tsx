@@ -22,7 +22,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/upload",
+        "https://creditsea-t1z9.onrender.com/upload",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
